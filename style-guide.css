@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap');
+
+body {
+  margin:0;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+header{
+    height:75px;
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+  }
+  
+  header > nav > ul > li {
+    text-decoration:none;
+    list-style-type:none;
+    display:inline;
+    padding:50px;
+    line-height:75px;
+  } 
+  
+  header > nav > ul > li > a {
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+    width:120px;
+    text-align:center;
+    font-size: 18px;
+  } 
+  
+  header > nav > ul > li > a:hover {
+    display:inline-block;
+    color:white;
+    text-decoration:underline;
+    background-color:grey;
+    width:100px;
+    text-align:center;
+  } 
+  
+  header > .logo-spacer, h1 {
+    text-decoration: underline white;
+    color: crimson;
+    font-size: 22px;
+    font-family: Impact;
+  }
+  
+  
+  .logo-spacer {
+    flex-grow:1;
+  }
+  
+  
+  
+      .fas, .fa-bars {
+      color:white;
+      margin-top:25px;
+      margin-right:25px;
+      display:none;
+    }
+  
+  
+  .mobile-nav-container {
+    position:relative;
+    background-color:black;
+    width:100%;
+    top:-250px;
+    z-index:-1;
+  }
+  
+  .mobile-nav-window-active {
+    background-color:black;
+    width:100%;
+    z-index:0;
+    top:0 !important;
+  }
+  
+  
+  .mobile-nav-container > aside > ul {
+  margin:0;
+    padding:0px;
+  }
+  
+  .mobile-nav-container > aside > ul >li {
+    margin:0;
+    padding:0px;
+    
+  }
+  
+  .mobile-nav-container > aside > ul > li > a {
+      display: inline-block;
+      color: white;
+      height: 55px;
+      padding: 10px;
+      line-height: 50px;
+      text-decoration: none;
+  }
+  
+  .mobile-nav-container > aside > ul > li  > a:hover {
+    color:white;
+    text-decoration:none;
+    display:block;
+    background-color:#373737;
+  }
+  
+  /* content here */
+
+  section {
+      min-height: 150px;
+  }
+
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.colors > h1 {
+    font-family: 'Franklin Gothic Medium';
+   color: black;
+   font-size: 75px;
+   letter-spacing: 30px;
+   margin-left: 450px;
+}
+
+
+
+.red {
+    display: flex;
+    flex-flow: row wrap;
+    height: 125px;
+    width: 125px;
+    background-color:crimson;
+    margin-left: 75px;
+    margin-top:20px;
+    border-radius: 50%;
+
+}
+
+.red > h1 {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: Impact;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 45px;
+    font-size:28px;
+}
+
+.red > p {
+    color: blueviolet;
+    margin-top: 50px;
+}
+
+.blue {
+    display: flex;
+    flex-flow: row wrap;
+    height: 125px;
+    width: 125px;
+    background-color: skyblue;
+    margin-left: 75px;
+    margin-top:20px;
+    border-radius: 50%;
+
+}
+
+.blue > h1 {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: Impact;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 45px;
+    font-size:28px;
+}
+
+.black {
+    display: flex;
+    flex-flow: row wrap;
+    height: 125px;
+    width: 125px;
+    background-color:black;
+    margin-left: 75px;
+    margin-top:20px;
+    border-radius: 50%;
+
+}
+
+.black > h1 {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: Impact;
+    color:white;
+    text-decoration: none;
+    margin-left: 4px;
+    margin-top: 45px;
+    font-size:28px;
+}
+
+.fonts > h1 {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Franklin Gothic Medium';
+   color: black;
+   font-size: 75px;
+   letter-spacing: 30px;
+   margin-left: 500px;
+}
+
+.impact {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.impact > h1 {
+    font-size: 70px;
+    font-family: Impact;
+    color: crimson;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 30px;
+    margin-top:45px;
+}
+
+.goth {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.goth > h1 {
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium';
+    color: skyblue;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 250px;
+    margin-top: 45px;
+}
+
+.barlow {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.barlow > h1 {
+    font-size: 70px;
+    font-family: 'Barlow Condensed';
+    color: black;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 225px;
+    margin-top: 45px;
+}
+
+.imp-text {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-left: 35px;
+font-size: 30px;
+}
+
+.got-text {
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 145px;
+    font-size: 30px;
+    }
+
+.bar-text {
+    font-family: 'Barlow Condensed';
+    margin-left: 145px;
+    font-size: 30px;
+}
+
+.pic-con {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: white;
+}
+
+.one {
+    width: 400px;
+    height: 400px;
+    background-color:crimson;
+}
+
+.two {
+    width: 400px;
+    height: 400px;
+    background-color: skyblue;
+}
+
+.three {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+
+
+@media screen and (max-width: 947px) {
+  #dsk-nav{
+    display:none;
+  }
+  .mobile-nav-container {
+    display:none;
+  }
+  #mob-nav {
+    position:relative;
+    display:block;
+  }
+      .fas, .fa-bars {
+    color:white;
+    margin-top:25px;
+    margin-right:25px;
+    display:block;
+  }
+}
